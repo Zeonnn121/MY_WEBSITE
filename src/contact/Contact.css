@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Base styles for all devices */
 .contact-section {
     position: relative;
@@ -182,4 +183,190 @@
     .form-label { font-size: 1.2rem; }
     .form-input, .form-textarea { font-size: 1rem; padding: 10px; }
     .form-button { font-size: 1.2rem; padding: 10px 20px; }
+=======
+/* Base styles for all devices */
+.contact-section {
+    position: relative;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin: 20px;
+    max-width: 100%;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contact-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-info {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.contact-item a {
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+.contact-icon {
+    margin-left: 8px;
+    font-size: 1.2rem;
+}
+
+/* Social Media Section */
+.social-media-section {
+    margin-top: 20px;
+}
+
+.social-media-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.social-media-info {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.social-media-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.social-media-icon {
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+
+/* Contact Form Container */
+.contact-form-container {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #19651d;
+}
+
+/* Color classes remain the same */
+.email-icon { color: #D44638; }
+.linkedin-icon, .linkedin-link { color: hsl(210, 62%, 53%); }
+.github-icon, .github-link { color: #ffffff; }
+.instagram-icon, .instagram-link { color: #E4405F; }
+.twitter-icon, .twitter-link { color: #1DA1F2; }
+.discord-icon, .discord-link { color: #5865F2; }
+
+/* Desktop styles */
+@media (min-width: 992px) {
+    .contact-section {
+        position: fixed;
+        left: 2%;
+        top: 10%;
+        max-width: 600px;
+        margin: 20px auto;
+        flex-direction: row;
+    }
+    
+    .contact-form-container {
+        width: 42%;
+        position: fixed;
+        left: 52%;
+        top: 25%;
+        margin-top: 0;
+        
+    }
+    
+    .contact-title { font-size: 2.5rem; }
+    .contact-text { font-size: 1.6rem; }
+    .contact-info, .social-media-info { font-size: 1.2rem; }
+    .contact-icon, .social-media-icon { font-size: 1.5rem; }
+    .social-media-title { font-size: 2rem; }
+    .form-title { font-size: 2rem; }
+    .form-label { font-size: 1.2rem; }
+    .form-input, .form-textarea { font-size: 1rem; padding: 10px; }
+    .form-button { font-size: 1.2rem; padding: 10px 20px; }
+>>>>>>> 37f71f39295c77edbb94c4351b7c39ea6ad664d5
 }
