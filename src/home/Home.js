@@ -21,7 +21,7 @@ const Home = () => {
                 <div className="nav-buttons">
                     <div className="about-button-container">
                         <button 
-                            onClick={() => navigate('/about')} 
+                            onClick={() => navigate('/gallery')} 
                             className="about-button"
                         >
                             Gallery
@@ -29,7 +29,7 @@ const Home = () => {
                         </button>
                         <div className="about-button-bg"></div>
                     </div>
-                    <button onClick={() => navigate('/projects')} className="nav-button">
+                    <button onClick={() => navigate('/gallery')} className="nav-button">
                         Projects
                         <span className="about-arrow">→</span>
                     </button>
