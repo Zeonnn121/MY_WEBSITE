@@ -85,7 +85,7 @@ const Gallery = () => {
       title: "Interactive Portfolio Website",
       description: "My personal portfolio website showcasing my work in web development, photography, and filmmaking.",
       tags: ["React", "TypeScript",  "Responsive Design"],
-      codeLink: "https://github.com/Zeonn121/My_WEBSITE",
+      codeLink: "https://github.com/Zeonn121/My_website",
       liveLink: "/"
     },
     {
@@ -297,3 +297,4 @@ const Gallery = () => {
     </>
   );
 };
+  export default Gallery;
