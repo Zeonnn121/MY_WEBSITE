@@ -85,7 +85,7 @@ const Gallery = () => {
       title: "Interactive Portfolio Website",
       description: "My personal portfolio website showcasing my work in web development, photography, and filmmaking.",
       tags: ["React", "TypeScript",  "Responsive Design"],
-      codeLink: "https://github.com/Zeonn121/My_website",
+      codeLink: "https://github.com/Zeonnn121/My_website",
       liveLink: "/"
     },
     {
